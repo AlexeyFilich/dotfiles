@@ -1,0 +1,62 @@
+!! Colors
+
+! special
+*.foreground:   #93a1a1
+*.background:   #002b36
+*.cursorColor:  #93a1a1
+
+! black
+*.color0:       #002b36
+*.color8:       #657b83
+
+! red
+*.color1:       #dc322f
+*.color9:       #dc322f
+
+! green
+*.color2:       #859900
+*.color10:      #859900
+
+! yellow
+*.color3:       #b58900
+*.color11:      #b58900
+
+! blue
+*.color4:       #268bd2
+*.color12:      #268bd2
+
+! magenta
+*.color5:       #6c71c4
+*.color13:      #6c71c4
+
+! cyan
+*.color6:       #2aa198
+*.color14:      #2aa198
+
+! white
+*.color7:       #93a1a1
+*.color15:      #fdf6e3
+
+!! URxvt
+
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 4
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+!! URxvt Functions
+! URxvt.perl-ext-common: font-size,selection-to-clipboard,pasta
+! URxvt.keysym.Shift-Control-C:    perl:keyboard-select:activate
+! URxvt.keysym.Shift-Control-V:    perl:pasta:paste
+! ! Comment this if you don't want copy when text is selected
+! #URxvt.clipboard.autocopy: true
+! URxvt.keysym.C-j:       perl:font-size:increase
+! URxvt.keysym.C-k:       perl:font-size:decrease
