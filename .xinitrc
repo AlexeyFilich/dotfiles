@@ -1,3 +1,8 @@
-# slstatus &
+# Status bar
+slstatus &
+# Remove mouse cursor after 10 seconds of idling
+unclutter -idle 10 &
+# Load Xresources
 xrdb .Xresources &
-exec dwm
+# Start DWM
+exec dwm > ~/.dwm.log
